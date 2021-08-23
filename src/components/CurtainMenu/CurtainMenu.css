@@ -1,0 +1,26 @@
+.curtain__menu {
+    @apply fixed top-0 left-0 w-full h-full bg-white;
+    transition: all 0.2s;
+    z-index: 20;
+}
+.curtain__menu--instant {
+    left: -100%;
+    transition: none;
+}
+.curtain__menu--left {
+    left: -100%
+}
+.curtain__menu--top {
+    top: -100%
+}
+.curtain__menu--right {
+    left: 100%
+}
+.curtain__menu--bottom {
+    top: 100%
+}
+.curtain__menu--active {
+    @apply inset-0;
+}
+
+
